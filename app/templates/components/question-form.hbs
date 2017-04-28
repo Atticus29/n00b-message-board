@@ -1,0 +1,14 @@
+<div id="form-section">
+  <h2>Ask a New Question</h2>
+  <form>
+    <label for="question">Question Title:</label><br>
+    {{input value=question id="question"}}<br>
+    <label for="author">Author:</label><br><!-- TODO link this up with user? -->
+    {{input value=author id="author"}}<br>
+    <label for="details">Explain your question in more detail: </label><br>
+    {{textarea value=details cols="80" rows="6"}}<br>
+    <label for="tags">Add tags:</label><br> <!-- TODO error handle -->
+    {{input value=tags id="tags"}}<br><br>
+    <button {{action 'save'}} class="btn btn-success">Ask</button>
+  </form>
+</div>

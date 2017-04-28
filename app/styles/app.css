@@ -119,9 +119,10 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #333;
-  opacity: 1;
+  /*opacity: 1;*/
+  /*TODO fix the issue of navbar not floating above the content*/
 }
 
 .navbar a {
@@ -133,5 +134,5 @@ body{
   text-decoration: none;
 }
 .main-content{
-  margin-top: 30px; /* Add a top margin to avoid content overlay */  
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }

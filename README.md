@@ -141,15 +141,16 @@ You will need the following things properly installed on your computer.
 1. Heroku deployment
 
 ## Planning Checklist
-- [ ] Application template contains header with link(s).
-- [ ] Data is stored in and retrieved from Ember Data models and Firebase.
+- [x] Application template contains header with link(s).
+- [x] Data is stored in and retrieved from Ember Data models and Firebase.
 - [ ] Components are used to create display and behavior for your templates.
 - [ ] One-to-many relationship exists between Question and Answers.
 - [ ] Application works as expected.
 - [ ] Project is in a presentable, portfolio-quality state.
 - [ ] Required functionality is in place by Friday deadline.
-- [ ] Code and Git documentation follow best practices, including a planning section in your README as described in this weeks documentation lesson.
-- [ ] Project demonstrates understanding of week's concepts. - [ ] If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [x] Code and Git documentation follow best practices, including a planning section in your README as described in this weeks documentation lesson.
+- [ ] Project demonstrates understanding of week's concepts.
+- [ ] If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 ## Supplementary Checklist
 - [ ] Extend the model to allow for additional features.
@@ -161,6 +162,7 @@ Create a User model.
 - [ ] Add tags to questions. How will you handle multiples of the same tag? How do users enter tags?
 - [ ] Add ability to render markdown in questions and answers [try this](https://emberobserver.com/addons/markdown-code-highlighting)
 - [ ] User has to justify downvotes
+- [ ] Add timestamp to question and display them in order of recentness
 
 ---
 
