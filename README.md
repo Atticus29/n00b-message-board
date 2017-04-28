@@ -98,7 +98,7 @@ You will need the following things properly installed on your computer.
     * Answers (hasMany)
     * UpCount (integer)
     * DownCount (integer)
-    * Feedback (hasMany)
+    * tips (hasMany)
   * Answer (model)
     * UpCount (integer)
     * DownCount (integer)
