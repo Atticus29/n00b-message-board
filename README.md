@@ -1,7 +1,22 @@
-# message-board
+# StackOverwhelm
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Mark Fisher
+## 4.28.2017
+
+## Planning
+1. If you know about persistent issues, such as resolving a functional dependency, call that out in a section of its own and provide a solution or workaround. Right in the README.
+1. Badges
+
+## Description
+Describe what it is that your project makes easier.
+Link to project pages for related libraries you mention. Link to Wikipedia, Wiktionary, even Urban Dictionary definitions for words of which a reader may not be familiar. Make amusing cultural references. Add links to related projects or services.
+
+## User stories
+
+## Specs
+| Behavior                   | Input Example     | Output Example    |
+| -------------------------- | -----------------:| -----------------:|
+|User should be able to add a stylist|Add Naomi Smalls|Naomi Smalls added as a stylist|
 
 ## Prerequisites
 
@@ -15,7 +30,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/Atticus29/n00b-message-board.git`
 * `cd message-board`
 * `npm install`
 * `bower install`
@@ -25,28 +40,28 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Setup Tutorial Video
 
-Make use of the many generators for code, try `ember help generate` for more details
+# License
 
-### Running Tests
+The MIT License (MIT)
 
-* `ember test`
-* `ember test --server`
+Copyright (c) 2017 Mark Fisher
 
-### Building
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
