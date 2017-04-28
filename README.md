@@ -159,7 +159,7 @@ Create a User model.
 - [ ] Integrate custom styling.
 - [ ] Implement upvote/downvote functionality so that users may vote on answers.
 - [ ] Add tags to questions. How will you handle multiples of the same tag? How do users enter tags?
-- [ ] Add ability to render markdown in questions and answers
+- [ ] Add ability to render markdown in questions and answers [try this](https://emberobserver.com/addons/markdown-code-highlighting)
 - [ ] User has to justify downvotes
 
 ---
