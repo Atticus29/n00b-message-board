@@ -12,7 +12,9 @@ export default Ember.Component.extend({
         author: this.get('author'),
         details: this.get('details'),
         upCount: 0,
-        downCount: 0
+        downCount: 0,
+        entry: this.get('question')
+
       };
       this.sendAction('saveAnswer', params)
     }
