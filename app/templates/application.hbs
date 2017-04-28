@@ -1,5 +1,67 @@
-
-{{outlet}}
+<title>StackOverwhelm</title>
+<script>
+$(document).ready(function() {
+$("[data-toggle]").click(function() {
+  var toggle_el = $(this).data("toggle");
+  $(toggle_el).toggleClass("open-sidebar");
+  $('#sidebar').toggleClass('change-sidebar');
+});
+});
+</script>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          {{#link-to 'index'}}Home{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'questions'}}View Questions{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'ask'}}Ask a New Question{{/link-to}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="">
+</div>
+<div id="sidebar">
+  <ul>
+    <li>{{#link-to 'entry-form' save="save"}}Create New Entry{{/link-to}}</li>
+    <!-- <li>Categories</li>
+    <ul> -->
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">Users</a></li>
+      <li><a href="#">Sign Out</a></li>
+    <!-- </ul> -->
+  </ul>
+</div>
+<div class="container main-content">
+  <div class="swipe-area"></div>
+  <a href="#" data-toggle=".main-content" id="sidebar-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+  <br>
+  {{outlet}}
+  <br>
+  <div id="main-error">
+    <div class="panel panel-default">
+      <div class="panel panel-heading">
+        <h3>Whoops</h3>
+      </div>
+      <div class="panel panel-body">
+        <h4>Something has gone terribly wrong.</h4>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <br>
+  </footer>
+</div>
 <footer>
 
 </footer>

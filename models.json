@@ -1,0 +1,40 @@
+{
+  "entries":[{
+    "question": "How do I learn how to ask a good question on StackOverwhelm?",
+    "author": "Mark",
+    "details": "I know that this site has different conventions from the way that [StackOverflow does it](https://stackoverflow.com/help/how-to-ask). I'm curious where I can find out how to do that",
+    "tags": "meta, etiquette",
+    "upCount": 203,
+    "downCount" 1
+
+    },{
+      "question": "How do I determine whether my javaScript variable is a string or an integer?",
+      "author": "Becky with the good hair",
+      "details": "Hi I'm brand new to StackOverwhelm and I write run on sentences I'm just wondering how to tell whether my javaScript variable is a string or an integer",
+      "tags": "javaScript, type",
+      "upCount": 11,
+      "downCount" 3
+      }],
+  "answers": [{
+    "details": "You can go [here](https://stackoverflow.com/help/how-to-ask)",
+    "author": "PaiMei",
+    "upCount": 11,
+    "downCount" 3
+    }, {
+      "details": "Use `typeof`. As in, `console.log(typeof whateverYourVariableNameIs);`",
+      "author": "Beatrix Kiddo",
+      "upCount": 3033,
+      "downCount" 1
+      }],
+  "tips": [{
+    "details": "You twit. This is such a shit question.",
+    "author": "Bellatrix Lestrange",
+    "upCount": 0,
+    "downCount" 55
+    },{
+      "details": "Great question! I think you might be able to make it even better if you pepper your explaination with a little more punctuation and include some example code if possible. But welcome! Clearly a popular question! Keep coding!",
+      "author": "Hermione Granger",
+      "upCount": 222,
+      "downCount" 0
+      }]
+}

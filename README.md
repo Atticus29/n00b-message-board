@@ -37,6 +37,13 @@ You will need the following things properly installed on your computer.
 
 ---
 
+## Dependencies
+
+* Bootstrap
+* Firebase
+
+---
+
 ## Setup
 
 ### Setup Tutorial Video
@@ -84,19 +91,26 @@ You will need the following things properly installed on your computer.
 ## Planning
 1. Questions should include the content of the question itself, an author, and additional notes.
   * Entry (model)
-    * Questions (text)
+    * Question (text)
     * Author (text)
     * Details (text)
     * Tags (strings separated by commas)
     * Answers (hasMany)
     * UpCount (integer)
     * DownCount (integer)
+    * Feedback (hasMany)
   * Answer (model)
     * UpCount (integer)
     * DownCount (integer)
     * Author (text)
     * Details (text)
     * Entry (has one)
+  * tips (model) for giving advice to the question asker about how to improve their question
+    * Author (text)
+    * Details (text)
+    * Entry (has one)
+    * UpCount (integer)
+    * DownCount (integer)
 1. Include a header and/or navbar that appears on all pages.    
  * It should contain the name of your site
  * A link to the home page, and
@@ -145,6 +159,8 @@ Create a User model.
 - [ ] Integrate custom styling.
 - [ ] Implement upvote/downvote functionality so that users may vote on answers.
 - [ ] Add tags to questions. How will you handle multiples of the same tag? How do users enter tags?
+- [ ] Add ability to render markdown in questions and answers
+- [ ] User has to justify downvotes
 
 ---
 
