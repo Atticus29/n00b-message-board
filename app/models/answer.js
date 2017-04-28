@@ -5,5 +5,5 @@ export default DS.Model.extend({
   details: DS.attr(),
   upCount: DS.attr(),
   downCount: DS.attr(),
-  // entry: DS.belongsTo('entry', {async})
+  entry: DS.belongsTo('entry', {async})
 });

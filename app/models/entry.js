@@ -7,6 +7,6 @@ export default DS.Model.extend({
   tags: DS.attr(),
   upCount: DS.attr(),
   downCount: DS.attr(),
-  // answers: DS.hasMany('answer', {async: true}),
+  answers: DS.hasMany('answer', {async: true}),
   // tips: DS.hasMany('tip', { async: true })
 });
