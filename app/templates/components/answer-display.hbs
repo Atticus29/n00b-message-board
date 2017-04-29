@@ -1,22 +1,15 @@
-{{#if displayAnswers}}
-  {{#each answers as |answer|}}
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h4>{{answer.author}}</h4>
-      </div>
-      <div class="panel-body">
-        <h6>{{answer.upCount}}</h6>
-        <h6>{{answer.downCount}}</h6>
-        <p>{{answer.details}}</p>
-      </div>
-      <div class="panel-footer">
-      </div>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h4>{{answer.author}}</h4>
+  </div>
+  <div class="panel-body">
+    <div class="vote">
+      <a href="#"></a>
     </div>
-  {{/each}}
-{{else}}
-<a {{action 'displayAnswers'}}>View Answers</a>
-{{/if}}
-
-<!-- {{#for answers as |answer|}}
-
-{{/for}} -->
+    <h6>{{answer.upCount}}</h6>
+    <h6>{{answer.downCount}}</h6>
+    <p>{{answer.details}}</p>
+  </div>
+  <!-- <div class="panel-footer">
+  </div> -->
+</div>

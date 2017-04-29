@@ -122,7 +122,7 @@ You will need the following things properly installed on your computer.
 1. Answers should be added and viewed on the same page as the question they respond to.
 
 ### Routes/Integration
-1. List all questions on the homepage.
+1. List all questions on the questions page.
 1. Allow users to click a question, to be routed to another page containing additional information and question details.
 
 ### Functionality

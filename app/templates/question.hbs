@@ -1,0 +1,22 @@
+<div class="panel panel-info">
+  <div class="panel-info panel-heading">
+    <h3>{{model.question}}</h3>
+    <h5>{{model.author}}</h5> <!-- TODO link this to other questions that user has asked -->
+  </div>
+  <div class="panel-body">
+    <p>{{model.details}}</p>
+  </div>
+  <div class="panel-footer">
+    <h5>Tags: {{model.tags}}</h5>
+    <!-- TODO see if you can split these in js -->
+  </div>
+  <div class="panel-footer">
+    Answers:<br>
+    {{#each model.answers as |answer|}}
+      {{answer-display answer=answer}}
+    {{/each}}
+  </div>
+  <div class="panel-footer">
+    {{add-answer saveAnswer="saveAnswer" question=model}}
+  </div>
+</div>
