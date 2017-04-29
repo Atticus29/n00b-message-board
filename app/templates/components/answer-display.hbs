@@ -4,10 +4,15 @@
   </div>
   <div class="panel-body">
     <div class="vote">
-      <a href="#"></a>
+      <a href="#">
+        <img class="vote_icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/136236-200.png" alt="upvote_icon">
+      </a>
+      <h6 class="vote_count">{{answer.upCount}}</h6>
+      <a href="#">
+        <img class="vote_icon" src="https://github.com/Atticus29/n00b-message-board/blob/master/downvote.png?raw=true" alt="">
+      </a>
+      <h6 class="vote_count">{{answer.downCount}}</h6>
     </div>
-    <h6>{{answer.upCount}}</h6>
-    <h6>{{answer.downCount}}</h6>
     <p>{{answer.details}}</p>
   </div>
   <!-- <div class="panel-footer">

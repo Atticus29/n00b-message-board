@@ -31,6 +31,7 @@ body{
 }
 .change-sidebar{
   left: 0px !important;
+  margin-top: 1.6%;
 }
 #sidebar ul {
   margin: 0;
@@ -85,7 +86,7 @@ body{
   line-height: 160%;
 }
 .main-content #sidebar-toggle {
-  margin-top: -27px;
+  margin-top: -31px;
   background: orange;
   border-radius: 13px;
   display: block;
@@ -174,4 +175,13 @@ footer .wrap{
     li{
       padding-top: 8px;
     }
+}
+
+.vote_count{
+  text-align: center;
+}
+
+.vote_icon{
+  width: 30px;
+  height: auto;
 }
