@@ -23,6 +23,10 @@ When the product is complete, users will have reputation scores that can be affe
 
 StackOverwhelm: Quality without the Attitude
 
+### Video Tour
+
+[![tutorial video image](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ---
 
 ## Prerequisites
@@ -39,17 +43,12 @@ You will need the following things properly installed on your computer.
 
 ## Dependencies
 
-* Bootstrap
-* Firebase
+* Bootstrap (should be set up automatically upon build of this webapp, but if not, simply navigate to the project directory in terminal and type, `ember install ember-bootstrap`)
+* Firebase (should be set up automatically upon build of this webapp, but if not, simply navigate to the project directory in terminal and type, `ember install emberfir`)
 
 ---
 
 ## Setup
-
-### Setup Tutorial Video
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
 
 ### Installation
 
@@ -64,27 +63,33 @@ You will need the following things properly installed on your computer.
 ### Running
 
 * Now type, `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit your app in any browser by clicking [here](http://localhost:4200) or typing http://localhost:4200 into your browser's URL field.
 
 ---
 
-## User stories
-
----
-
-## Specs
+## Specs/User stories
 | Behavior                   | Input Example     | Output Example    |
 | -------------------------- | -----------------:| -----------------:|
-|User should be able to add a stylist|Add Naomi Smalls|Naomi Smalls added as a stylist|
-
-
----
-
-## Known Bugs
+|User should be able to ask a new question|User adds a question and fills out details about the question|Question is recorded by the app|
+|User should be able to answer questions posted by themselves or by other users |User answers a question by filling out details|Answer is recorded by the app and associated with a particular question|
+|User should be able to edit questions|User edits question details|Updates recorded by the app.|
+|User should be able to edit answers|User edits answer details|Updates recorded by the app.|
 
 ---
 
-## Future Directions
+## Known Bugs/Future Directions
+
+* Currently, the key to firebase is on display for the world to see. Eventually, this should be migrated to a .env file.
+* Currently, the ability to update question's down-votes and up-votes is not fully functional.
+* Should be able to delete answers route.
+* Add answer should be displayed on question page instead of questions page (to reduce probability of duplicate answer)
+* Improve input validation, esp. for tags.
+
+### Future Specs
+| Behavior                   | Input Example     | Output Example    |
+| -------------------------- | -----------------:| -----------------:|
+|User should be able to provide question-asking tips to question posters|User adds a tip to a question by filling out details|Tip is recorded by the app and associated with particular question|
+
 
 ---
 
@@ -114,40 +119,41 @@ You will need the following things properly installed on your computer.
 1. Include a header and/or navbar that appears on all pages.    
  * It should contain the name of your site
  * A link to the home page, and
- * Other content such as LinkedIn, github etc. in footer.
+ * Other content such as LinkedIn, github etc. in footer and/or sidebar.
 
 ### Components
-1. Displaying only the question and the name of the author.
-1. Question details.
-1. Answers should be added and viewed on the same page as the question they respond to.
+1. question-display: displays abbreviated details of a question in the questions route.
+1. question-form: displays the form for creating a new question.
+1. answer-display: answers should be viewed on the same page as the question they respond to.
+1. add-answer: displays the form for creating a new answer.
 
 ### Routes/Integration
-1. List all questions on the questions page.
-1. Allow users to click a question, to be routed to another page containing additional information and question details.
+1. ask: manages question submission.
+1. questions: lists all questions on one page.
+1. question: lists one question in more detail
+1. index: demo video and link to readme
 
-### Functionality
-1. Allow users to add and edit questions.
-1. Allow users to add answers to a question.
+### Functionality (see specs table above)
 
 #### UI/UX
 1. Styling theme
 
 ### Polish
 1. Responsive components
-1. DRY up/delete unused
 1. Add video to README/clean up
-1. If you know about persistent issues, such as resolving a functional dependency, call that out in a section of its own and provide a solution or workaround.
+1. Flesh out bugs and future directions section.
+1. DRY up/delete unused
 1. Badges
 1. Heroku deployment
 
 ## Planning Checklist
 - [x] Application template contains header with link(s).
 - [x] Data is stored in and retrieved from Ember Data models and Firebase.
-- [ ] Components are used to create display and behavior for your templates.
+- [x] Components are used to create display and behavior for your templates.
 - [x] One-to-many relationship exists between Question and Answers.
-- [ ] Application works as expected.
-- [ ] Project is in a presentable, portfolio-quality state.
-- [ ] Required functionality is in place by Friday deadline.
+- [x] Application works as expected.
+- [x] Project is in a presentable, portfolio-quality state.
+- [x] Required functionality is in place by Friday deadline.
 - [x] Code and Git documentation follow best practices, including a planning section in your README as described in this weeks documentation lesson.
 - [x] Project demonstrates understanding of week's concepts.
 - [x] If prompted, you are able to discuss your code with an instructor using correct terminology.
@@ -157,9 +163,9 @@ You will need the following things properly installed on your computer.
 Create a User model.
 - [ ] Implement full CRUD. Allow questions and answers to be deleted.
 - [ ] Add user authentication and/or authorization to create an admin panel. Allow only verified admin accounts to edit or delete questions.
-- [ ] Integrate custom styling.
+- [x] Integrate custom styling.
 - [ ] Implement upvote/downvote functionality so that users may vote on answers.
-- [ ] Add tags to questions. How will you handle multiples of the same tag? How do users enter tags?
+- [x] Add tags to questions. How will you handle multiples of the same tag? How do users enter tags?
 - [ ] Add ability to render markdown in questions and answers [try this](https://emberobserver.com/addons/markdown-code-highlighting)
 - [ ] User has to justify downvotes
 - [ ] Add timestamp to question and display them in order of recentness
