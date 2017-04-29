@@ -19,7 +19,7 @@ body{
   position: fixed;
   z-index: 1000;
   left: -240px;
-  background: #DF314D;
+  background: orange;
   width: 240px;
   height: 100%;
   box-sizing: border-box;
@@ -44,10 +44,10 @@ body{
   padding: 15px 20px;
   font-size: 16px;
   font-weight: 100;
-  color: white;
+  color: black;
   text-decoration: none;
   display: block;
-  border-bottom: 1px solid #C9223D;
+  border-bottom: 1px solid #5c6569;
   -webkit-transition:  background 0.3s ease-in-out;
   -moz-transition:  background 0.3s ease-in-out;
   -ms-transition:  background 0.3s ease-in-out;
@@ -85,10 +85,11 @@ body{
   line-height: 160%;
 }
 .main-content #sidebar-toggle {
-  background: #DF314D;
-  border-radius: 3px;
+  margin-top: -27px;
+  background: orange;
+  border-radius: 13px;
   display: block;
-  position: relative;
+  position: fixed;
   padding: 10px 7px;
   float: left;
 }
@@ -97,7 +98,7 @@ body{
   width: 18px;
   margin-bottom: 3px;
   height: 2px;
-  background-color: #fff;
+  background-color: black;
   border-radius: 1px;
 }
 .main-content #sidebar-toggle .bar:last-child{
@@ -135,4 +136,42 @@ body{
 }
 .main-content{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.make-logo-like{
+  padding: 0.5%;
+  border-style: solid;
+  border-color: orange;
+  /*background: orange;*/
+}
+
+.logo-text a{
+  color: orange;
+  height: 78%;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    background: #333333;
+    height: 7%;
+    bottom: 0;
+    z-index: 6;
+}
+footer .wrap{
+    /*margin: 10px auto;*/
+    margin: auto;
+    vertical-align: middle;
+}
+
+.bottom {
+    width: 100%;
+    float: none;
+    /*margin: 0 auto;*/
+    /*margin-bottom: 1%;*/
+    li{
+      padding-top: 8px;
+    }
 }

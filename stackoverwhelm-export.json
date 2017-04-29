@@ -1,0 +1,35 @@
+{
+  "answers" : {
+    "-KiqYVvA4k68szdFnSeK" : {
+      "author" : "Forest Hermit",
+      "details" : "All of the wood it could chuck if it could chuck wood.",
+      "downCount" : 0,
+      "entry" : "-KiqQqV615goJ7dCb2Di",
+      "upCount" : 0
+    }
+  },
+  "entries" : {
+    "-KiqQqV615goJ7dCb2Di" : {
+      "answers" : {
+        "-KiqYVvA4k68szdFnSeK" : true
+      },
+      "author" : "Curious forestry student",
+      "details" : "If a woodchuck could chuck wood.",
+      "downCount" : 0,
+      "question" : "How much wood would a woodchuck chuck",
+      "tags" : "forests, rodents",
+      "upCount" : 0
+    }
+  },
+  "tips" : [ {
+    "author" : "Bellatrix Lestrange",
+    "details" : "You twit. This is such a shit question.",
+    "downCount" : 55,
+    "upCount" : 0
+  }, {
+    "author" : "Hermione Granger",
+    "details" : "Great question! I think you might be able to make it even better if you pepper your explaination with a little more punctuation and include some example code if possible. But welcome! Clearly a popular question! Keep coding!",
+    "downCount" : 0,
+    "upCount" : 222
+  } ]
+}

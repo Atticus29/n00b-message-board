@@ -144,13 +144,13 @@ You will need the following things properly installed on your computer.
 - [x] Application template contains header with link(s).
 - [x] Data is stored in and retrieved from Ember Data models and Firebase.
 - [ ] Components are used to create display and behavior for your templates.
-- [ ] One-to-many relationship exists between Question and Answers.
+- [x] One-to-many relationship exists between Question and Answers.
 - [ ] Application works as expected.
 - [ ] Project is in a presentable, portfolio-quality state.
 - [ ] Required functionality is in place by Friday deadline.
 - [x] Code and Git documentation follow best practices, including a planning section in your README as described in this weeks documentation lesson.
-- [ ] Project demonstrates understanding of week's concepts.
-- [ ] If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [x] Project demonstrates understanding of week's concepts.
+- [x] If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 ## Supplementary Checklist
 - [ ] Extend the model to allow for additional features.

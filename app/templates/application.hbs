@@ -1,20 +1,22 @@
 <title>StackOverwhelm</title>
 <script>
 $(document).ready(function() {
-$("[data-toggle]").click(function() {
-  var toggle_el = $(this).data("toggle");
-  $(toggle_el).toggleClass("open-sidebar");
-  $('#sidebar').toggleClass('change-sidebar');
-});
+  $("[data-toggle]").click(function() {
+    var toggle_el = $(this).data("toggle");
+    $(toggle_el).toggleClass("open-sidebar");
+    $('#sidebar').toggleClass('change-sidebar');
+  });
 });
 </script>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
-        <li>
-          {{#link-to 'index'}}Home{{/link-to}}
-        </li>
+          <li>
+            <div class="logo-text">
+              {{#link-to 'index'}}StackOverwhelm{{/link-to}}
+            </div>
+          </li>
         <li>
           {{#link-to 'questions'}}View Questions{{/link-to}}
         </li>
@@ -29,9 +31,9 @@ $("[data-toggle]").click(function() {
 </div>
 <div id="sidebar">
   <ul>
-      <li><a href="#">Explore</a></li>
-      <li><a href="#">Users</a></li>
-      <li><a href="#">Sign Out</a></li>
+    <li><a href="#">Explore</a></li>
+    <li><a href="#">Users</a></li>
+    <li><a href="#">Sign Out</a></li>
   </ul>
 </div>
 <div class="container main-content">
@@ -59,5 +61,17 @@ $("[data-toggle]").click(function() {
   </footer>
 </div>
 <footer>
-
+  <div class="wrap">
+    <ul class="nav navbar-nav social">
+      <li>
+        <a href="https://www.github.com/Atticus29">GitHub Page</a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/mark-fisher-898222139">LinkedIn</a>
+      </li>
+      <li>
+        <a href="https://atticus29.github.io/portfolio/about.html">Digital Resume</a>
+      </li>
+    </ul>
+  </div>
 </footer>
