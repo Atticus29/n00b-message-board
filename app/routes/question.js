@@ -6,7 +6,6 @@ export default Ember.Route.extend({
   },
   actions:{
     updateQuestion(model, params){
-      console.log(model);
       Object.keys(params).forEach(key=>{
         if(params[key] !== undefined){
           model.set(key, params[key]);

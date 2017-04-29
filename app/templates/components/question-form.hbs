@@ -2,9 +2,9 @@
   <h2>Ask a New Question</h2>
   <form>
     <label for="question">Question Title:</label><br>
-    {{input value=title id="title"}}<br>
+    {{input value=title id="title" required=true class="form-control"}}<br>
     <label for="author">Author:</label><br><!-- TODO link this up with user? -->
-    {{input value=author id="author"}}<br>
+    {{input value=author id="author" required=true}}<br>
     <label for="details">Explain your question in more detail: </label><br>
     {{textarea value=details cols="80" rows="6"}}<br>
     <label for="tags">Add tags:</label><br> <!-- TODO error handle -->
