@@ -8,7 +8,6 @@ export default Ember.Route.extend({
       this.transitionTo('questions'); // or nothing?
     },
     handleError(){
-      console.log("Got here");
       $("#form-section").hide();
       $("#main-error").show();
       $('html, body').animate({

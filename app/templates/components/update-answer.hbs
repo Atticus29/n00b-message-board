@@ -1,0 +1,11 @@
+{{#if updateAnswerForm}}
+<form id="answer-form">
+  <label for="author">Author:</label><br><!-- TODO link this up with user? -->
+  {{input value=author id="author" placeholder=answer.author}}<br>
+  <label for="details">Your Answer to the Question: </label><br>
+  {{textarea value=details cols="80" rows="6" placeholder=answer.details}}<br>
+  <button {{action 'updateAnswer' answer}} class="btn btn-success">Done</button>
+</form>
+{{else}}
+<button {{action 'updateAnswerForm'}} class="btn btn-primary">Edit</button>
+{{/if}}

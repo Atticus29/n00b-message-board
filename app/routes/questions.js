@@ -16,6 +16,14 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('questions');
+    },
+    handleError(){
+      $("#question-display-secion").hide();
+      $("#main-error").show();
+      $('html, body').animate({
+        scrollTop: $("#main-error").offset().top
+      }, 2000);
+      setInterval(()=>{location.reload(true);}, 2000);
     }
   }
 });

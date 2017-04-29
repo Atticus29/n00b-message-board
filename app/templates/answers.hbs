@@ -1,5 +1,5 @@
 {{#each model as |question|}}
   {{#each question.answers as |answer|}}
-    {{answer-display answer=answers}}
+    {{answer-display answer=answer handleError="handleError"}}
   {{/each}}
 {{/each}}
