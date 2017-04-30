@@ -15,6 +15,7 @@ export default Ember.Component.extend({
         this.set('updateAnswerForm', false);
         this.sendAction('updateAnswer', answer, params);
       } else{
+        console.log("got to the error");
         this.sendAction('handleError');
       }
     }

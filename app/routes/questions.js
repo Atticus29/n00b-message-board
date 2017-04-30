@@ -23,7 +23,7 @@ export default Ember.Route.extend({
       $('html, body').animate({
         scrollTop: $("#main-error").offset().top
       }, 2000);
-      setInterval(()=>{location.reload(true);}, 2000);
+      setInterval(()=>{location.reload(true);}, 4000);
     }
   }
 });

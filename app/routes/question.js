@@ -32,6 +32,14 @@ export default Ember.Route.extend({
       });
       answer.save();
       location.reload(true);
+    },
+    handleError(){
+      $("#question-detailed-section").hide();
+      $("#main-error").show();
+      $('html, body').animate({
+       scrollTop: $("#main-error").offset().top
+   }, 2000);
+      setInterval(()=>{location.reload(true);}, 4000);
     }
   }
 });

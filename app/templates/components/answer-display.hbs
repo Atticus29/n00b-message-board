@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h4>{{answer.author}}</h4>
+    <h4>By: {{answer.author}}</h4>
   </div>
   <div class="panel-body">
     <div class="vote">
@@ -8,12 +8,14 @@
         <img class="vote_icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/136236-200.png" alt="upvote_icon">
       </a>
       <h6 class="vote_count">{{answer.upCount}}</h6>
+      <h6 class="vote_count">{{answer.downCount}}</h6>
       <a href="#">
         <img class="vote_icon" src="https://github.com/Atticus29/n00b-message-board/blob/master/downvote.png?raw=true" alt="">
       </a>
-      <h6 class="vote_count">{{answer.downCount}}</h6>
     </div>
-    <p>{{answer.details}}</p>
+    <div class="answer-detail-section">
+      {{answer.details}}
+    </div>
   </div>
   <div class="panel-footer">
     {{update-answer answer=answer updateAnswer="updateAnswer" handleError="handleError"}}

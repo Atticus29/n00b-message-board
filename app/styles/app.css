@@ -177,11 +177,28 @@ footer .wrap{
     }
 }
 
+.vote{
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
 .vote_count{
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+}
+.answer-detail-section{
+  height: 85px;
+  float: left;
+  vertical-align: middle;
+  padding-top: 26px;
+  padding-left: 5px;
 }
 
 .vote_icon{
+  margin: 0;
+  padding: 0;
   width: 30px;
   height: auto;
 }
