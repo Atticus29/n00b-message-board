@@ -25,7 +25,7 @@ StackOverwhelm: Quality without the Attitude
 
 ### Video Tour
 
-[![tutorial video image](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![tutorial video image](http://img.youtube.com/vi/bKsm1jODz6A/0.jpg)](http://www.youtube.com/watch?v=bKsm1jODz6A)
 
 ---
 
@@ -81,9 +81,7 @@ You will need the following things properly installed on your computer.
 
 * Currently, the key to firebase is on display for the world to see. Eventually, this should be migrated to a .env file.
 * Currently, the ability to update question's down-votes and up-votes is not fully functional.
-* Should be able to delete answers route.
-* Add answer should be displayed on question page instead of questions page (to reduce probability of duplicate answer)
-* Improve input validation, esp. for tags.
+* Improve input validation for tags.
 
 ### Future Specs
 | Behavior                   | Input Example     | Output Example    |

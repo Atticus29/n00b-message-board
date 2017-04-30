@@ -202,3 +202,12 @@ footer .wrap{
   width: 30px;
   height: auto;
 }
+.intro-video{
+  position: absolute;
+  /*width: 300px;*/
+  /*height: 200px;*/
+  z-index: 15;
+  top: 50%;
+  left: 40%;
+  margin: 25px 0 0 -150px;
+}
